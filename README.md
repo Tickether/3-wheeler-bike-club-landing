@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 3WB Landing Page
 
-## Getting Started
+A static marketing site built with Next.js 14 showcasing the Three-Wheeler Bike Club ecosystem, driving users to fleet apps, member dashboards, and community resources.
 
-First, run the development server:
+## 🚀 Core Features
+
+- **Hero Section**: Engaging headline, subtext, and call-to-action buttons linking to mini-apps and dApps.
+- **Features Overview**: Highlights fractional ownership, credit scoring, and community savings.
+- **App Links**: Easy navigation to Fleet App, Team App, Members PWA, and Landing MiniPay.
+- **Technology Showcase**: Displays underlying blockchain integrations and open-source ethos.
+- **Responsive Design**: Optimized for desktop, tablet, and mobile with Tailwind CSS.
+- **Accessibility**: Follows ARIA best practices for inclusive user experience.
+
+## 🛠 Tech Stack
+
+- **Framework**: Next.js 14 (App Router)
+- **Language**: TypeScript, React 18
+- **Styling**: Tailwind CSS, Shadcn UI
+- **Animations**: Framer Motion for smooth transitions
+- **Deployment**: Vercel for static hosting
+
+## 📦 Getting Started
+
+### Prerequisites
+
+- Node.js v18+ and npm or Yarn
+
+### Installation
+
+```bash
+git clone https://github.com/3-Wheeler-Bike-Club/3-wheeler-bike-club-landing.git
+cd 3-wheeler-bike-club-landing
+npm install
+# or yarn install
+```
+
+### Development
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# or yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to preview.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build & Deploy
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+For static export (optional):
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run export
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📁 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+/
+├── app/                   # Next.js App Router pages (landing & sections)
+├── components/            # Reusable UI components (hero, feature cards, footer)
+├── public/                # Static assets (images, icons)
+├── styles/                # Global CSS and Tailwind config
+├── next.config.js         # Next.js configuration
+├── tailwind.config.js     # Tailwind CSS configuration
+├── tsconfig.json          # TypeScript configuration
+└── package.json           # Project manifest
+```
 
-## Deploy on Vercel
+## 🤝 Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions are welcome! Please:
+1. Fork the repository
+2. Create a branch (`git checkout -b feature/...`)
+3. Commit your changes with clear messages
+4. Open a Pull Request
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+
+MIT License. See [LICENSE](LICENSE) for details.
+```
+
