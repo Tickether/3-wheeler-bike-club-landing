@@ -21,22 +21,22 @@ export function Header() {
             {/** middle */}
             <div className="flex gap-14">
                 <div className="flex gap-1 items-center cursor-pointer">
-                    <Link href={{ hash: 'home' }} scroll={false}>
+                    <Link href={{ hash: 'home' }}>
                         <p>Home</p>
                     </Link>
                 </div>
                 <div className="flex gap-1 items-center cursor-pointer">
-                    <Link href={{ hash: 'services' }} scroll={false}>
+                    <Link href={{ hash: 'services' }}>
                         <p>Our Services</p>
                     </Link>
                 </div>
                 <div className="flex gap-1 items-center cursor-pointer">
-                    <Link href={{ hash: 'about' }} scroll={false}>
+                    <Link href={{ hash: 'about' }}>
                         <p>About Us</p>
                     </Link>                   
                 </div>
                 <div className="flex gap-1 items-center cursor-pointer">
-                    <Link href={{ hash: 'faqs' }} scroll={false}>
+                    <Link href={{ hash: 'faqs' }}>
                         <p>FAQs</p>
                     </Link>
                 </div>
@@ -46,7 +46,9 @@ export function Header() {
             {/** right */}
             <div className="flex gap-5">
                 <Button className="rounded-full">
-                    <p>Contact us</p>
+                    <Link href={{ hash: 'footer' }}>
+                        <p>Contact us</p>
+                    </Link>
                 </Button>
             </div>
         </div>
