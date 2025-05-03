@@ -17,7 +17,7 @@ export function Wrapper() {
       </div>
 
       <div>
-        <section className="flex w-full h-screen bg-red-500" id="home">
+        <section className="flex w-full h-screen" id="home">
           <Hero/>
         </section>
         <section className="flex w-full h-screen bg-blue-500" id="services">
