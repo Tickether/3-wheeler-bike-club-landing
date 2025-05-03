@@ -7,7 +7,9 @@ import { Header } from "./header";
 export function Wrapper() {
   return (
     <div className="flex flex-col w-full min-h-screen">
-      <Header/>
+      <div className="flex w-full">
+        <Header/>
+      </div>
 
       <Footer/>
     </div>
