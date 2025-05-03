@@ -11,20 +11,22 @@ import { Services } from "./services";
 export function Wrapper() {
   return (
     <div className="flex flex-col w-full min-h-screen">
-      <div className="flex w-full">
+      
+      <div className="flex w-full sticky top-0 z-50">
         <Header/>
       </div>
+
       <div>
-        <section className="flex w-full h-screen" id="home">
+        <section className="flex w-full h-screen bg-red-500" id="home">
           <Hero/>
         </section>
-        <section className="flex w-full h-screen" id="services">
+        <section className="flex w-full h-screen bg-blue-500" id="services">
           <Services/>
         </section>
-        <section className="flex w-full h-screen" id="about">
+        <section className="flex w-full h-screen bg-green-500" id="about">
           <About/>
         </section>
-        <section className="flex w-full h-screen" id="faqs">
+        <section className="flex w-full h-screen bg-yellow-500" id="faqs">
           <FAQs/>
         </section>
         <section className="flex w-full h-60" id="footer">
