@@ -44,7 +44,7 @@ export function Header() {
             </div>
 
             {/** middle */}
-            <div className="flex gap-14">
+            <div className="flex gap-14 max-md:hidden">
                 <div className="flex gap-1 items-center cursor-pointer">
                     <Link href={{ hash: 'home' }}>
                         <p className={`hover:underline hover:decoration-4 hover:underline-offset-8 hover:decoration-white ${activeSection === 'home' ? 'underline decoration-4 underline-offset-8 decoration-yellow-500' : ''}`}>Home</p>

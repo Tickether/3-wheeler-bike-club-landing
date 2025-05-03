@@ -17,16 +17,16 @@ export function Wrapper() {
       </div>
 
       <div>
-        <section className="flex w-full h-screen" id="home">
+        <section className="flex w-full h-screen px-4" id="home">
           <Hero/>
         </section>
-        <section className="flex w-full h-screen bg-blue-500" id="services">
+        <section className="flex w-full h-screen px-4 bg-blue-500" id="services">
           <Services/>
         </section>
-        <section className="flex w-full h-screen bg-green-500" id="about">
+        <section className="flex w-full h-screen px-4 bg-green-500" id="about">
           <About/>
         </section>
-        <section className="flex w-full h-screen bg-yellow-500" id="faqs">
+        <section className="flex w-full h-screen px-4 bg-yellow-500" id="faqs">
           <FAQs/>
         </section>
         <section className="flex w-full h-60" id="footer">
