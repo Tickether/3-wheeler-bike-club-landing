@@ -8,6 +8,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+
 export const metadata: Metadata = {
   title: "3 Wheeler Bike Club | Ownership, Community & Governance",
   description: "Official Website of the 3 Wheeler Bike Club",
@@ -21,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistMono.variable} antialiased`}
+        className={`${geistMono.className}`}
       >
         {children}
       </body>
