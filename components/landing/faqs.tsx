@@ -3,7 +3,7 @@ import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "..
 
 export function FAQs() {
     return (
-        <div className="flex max-md:flex-col w-full mb-36 h-full items-center justify-center gap-20">
+        <div className="flex max-md:flex-col-reverse w-full mb-36 h-full items-center justify-center gap-20">
             <div className="flex w-2/5 max-md:w-full max-md:h-2/5 items-center justify-center">
             <Image src="/images/kekeFAQs.svg" alt="Keke FAQs" width={700} height={700} />
             </div>
