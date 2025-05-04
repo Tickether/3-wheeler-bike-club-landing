@@ -1,6 +1,5 @@
 import { Car } from "lucide-react";
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "../ui/accordion";
-import { Separator } from "../ui/separator";
 
 export function FAQs() {
     return (

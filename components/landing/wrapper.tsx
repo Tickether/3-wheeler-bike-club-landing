@@ -29,7 +29,7 @@ export function Wrapper() {
         <section className="flex w-full h-screen px-4" id="faqs">
           <FAQs/>
         </section>
-        <section className="flex w-full h-60" id="footer">
+        <section className="flex w-full h-60 bg-[#0D0D0D]" id="footer">
           <Footer/>
         </section>
       </div>
