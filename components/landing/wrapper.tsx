@@ -17,8 +17,12 @@ export function Wrapper() {
       </div>
 
       <div>
-        <section className="flex w-full h-screen px-4" id="home">
-          <Hero/>
+        <section className="flex w-full h-screen px-4 relative" id="home">
+          <div className="absolute inset-0 bg-[url('/images/heroBG.svg')] bg-center bg-cover"></div>
+          <div className="absolute inset-0 bg-black/50"></div>
+          <div className="relative z-10 flex w-full">
+            <Hero/>
+          </div>
         </section>
         <section className="flex w-full h-screen px-4" id="services">
           <Services/>
