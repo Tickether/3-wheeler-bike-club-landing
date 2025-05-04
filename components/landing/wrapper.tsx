@@ -30,7 +30,7 @@ export function Wrapper() {
         <section className="flex w-full h-screen px-4 bg-[url('/images/aboutBG.svg')] bg-center bg-cover" id="about">
           <About/>
         </section>
-        <section className="flex w-full h-screen px-4" id="faqs">
+        <section className="flex w-full h-screen px-4 bg-[url('/images/faqsBG.svg')] bg-center bg-cover" id="faqs">
           <FAQs/>
         </section>
         <section className="flex w-full h-60 bg-[#0D0D0D]" id="footer">

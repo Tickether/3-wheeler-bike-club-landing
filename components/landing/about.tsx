@@ -11,7 +11,7 @@ export function About() {
                     </div>
                 </div>
                 <div className="flex w-2/5 max-md:w-full max-md:h-2/5 items-center justify-center">
-                    <Image src="/images/kekeAbout.svg" alt="Keke Hero" width={700} height={700} />
+                    <Image src="/images/kekeAbout.svg" alt="Keke About" width={700} height={700} />
                 </div>
         </div>
     );

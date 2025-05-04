@@ -1,11 +1,11 @@
-import { Car } from "lucide-react";
+import Image from "next/image";
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "../ui/accordion";
 
 export function FAQs() {
     return (
         <div className="flex max-md:flex-col w-full mb-36 h-full items-center justify-center gap-20">
             <div className="flex w-2/5 max-md:w-full max-md:h-2/5 items-center justify-center">
-                <Car className="w-1/2 h-1/2" />
+            <Image src="/images/kekeFAQs.svg" alt="Keke FAQs" width={700} height={700} />
             </div>
             <div className="flex flex-col gap-6 max-md:gap-2 w-2/5 max-md:w-full max-md:h-2/5 items-center justify-center">
                 <div className="flex flex-col gap-2">
@@ -29,13 +29,6 @@ export function FAQs() {
                         </AccordionItem>
                         <AccordionItem value="item-3">
                             <AccordionTrigger className="text-lg max-md:text-xs">Who manages the bikes and drivers, and what’s the vetting process for drivers on the platform?</AccordionTrigger>
-                            <AccordionContent>
-                            Yes. Its animated by default, but you can disable it if you
-                            prefer.
-                            </AccordionContent>
-                        </AccordionItem>
-                        <AccordionItem value="item-4">
-                            <AccordionTrigger className="text-lg max-md:text-xs">How liquid is my investment? Can I sell my fractional or full share before the 60-week period ends?</AccordionTrigger>
                             <AccordionContent>
                             Yes. Its animated by default, but you can disable it if you
                             prefer.
