@@ -20,7 +20,7 @@ export function Hero() {
                 <Button className="rounded-full px-12 py-7 max-sm:px-8 max-sm:py-6 border-yellow-500" variant="outline" onClick={() => router.push("https://mini.3wb.club")}>Finance a 3-Wheeler</Button>
             </div>
             <div className="absolute inset-0 flex justify-center items-center z-[-1] opacity-50 max-sm:mt-60">
-                <Image src="/images/kekeHero.svg" alt="Keke Hero" width={800} height={800} />
+                <Image className="max-2xl:w-5/6 max-2xl:h-5/6" src="/images/kekeHero.svg" alt="Keke Hero" width={800} height={800} />
             </div>
         </div>
     );
