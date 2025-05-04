@@ -25,7 +25,7 @@ export function Wrapper() {
           </div>
         </section>
         <section className="flex w-full h-screen px-4" id="services">
-          <Services/>
+          <Services/>  
         </section>
         <section className="flex w-full h-screen px-4" id="about">
           <About/>
