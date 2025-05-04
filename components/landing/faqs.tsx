@@ -13,31 +13,30 @@ export function FAQs() {
                     <h1 className="text-3xl max-md:text-xl font-semibold">Frequently Asked Questions</h1>
                     <p className="text-sm max-md:text-xs">Here are some of the most common inquiries we receive to help you make informed decisions with confidence. If you need more details, feel free to reach out!</p>
                 </div>
-                <div>
-                    
+                <div className="w-full">
                     <Accordion type="single" collapsible className="w-full">
                         <AccordionItem value="item-1">
-                            <AccordionTrigger className="text-xs">What is the exact structure of the investment, and how are returns calculated?</AccordionTrigger>
+                            <AccordionTrigger className="text-lg max-md:text-xs">What is the exact structure of the investment, and how are returns calculated?</AccordionTrigger>
                             <AccordionContent>
                             Yes. It adheres to the WAI-ARIA design pattern.
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-2">
-                            <AccordionTrigger className="text-xs">What are the risks involved, and what happens if a driver defaults on their hire purchase agreement?</AccordionTrigger>
+                            <AccordionTrigger className="text-lg max-md:text-xs">What are the risks involved, and what happens if a driver defaults on their hire purchase agreement?</AccordionTrigger>
                             <AccordionContent>
                             Yes. It comes with default styles that matches the other
                             components  aesthetic.
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-3">
-                            <AccordionTrigger className="text-xs">Who manages the bikes and drivers, and what’s the vetting process for drivers on the platform?</AccordionTrigger>
+                            <AccordionTrigger className="text-lg max-md:text-xs">Who manages the bikes and drivers, and what’s the vetting process for drivers on the platform?</AccordionTrigger>
                             <AccordionContent>
                             Yes. Its animated by default, but you can disable it if you
                             prefer.
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-4">
-                            <AccordionTrigger className="text-xs">How liquid is my investment? Can I sell my fractional or full share before the 60-week period ends?</AccordionTrigger>
+                            <AccordionTrigger className="text-lg max-md:text-xs">How liquid is my investment? Can I sell my fractional or full share before the 60-week period ends?</AccordionTrigger>
                             <AccordionContent>
                             Yes. Its animated by default, but you can disable it if you
                             prefer.
