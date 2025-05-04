@@ -26,7 +26,7 @@ export function Wrapper() {
         <section className="flex w-full h-screen px-4" id="about">
           <About/>
         </section>
-        <section className="flex w-full h-screen px-4 bg-yellow-500" id="faqs">
+        <section className="flex w-full h-screen px-4" id="faqs">
           <FAQs/>
         </section>
         <section className="flex w-full h-60" id="footer">
