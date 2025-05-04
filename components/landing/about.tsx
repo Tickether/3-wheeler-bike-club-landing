@@ -1,4 +1,5 @@
 import { Car } from "lucide-react";
+import Image from "next/image";
 
 export function About() {
     return (
@@ -11,7 +12,7 @@ export function About() {
                     </div>
                 </div>
                 <div className="flex w-2/5 max-md:w-full max-md:h-2/5 items-center justify-center">
-                    <Car className="w-1/2 h-1/2" />
+                    <Image src="/images/kekeAbout.svg" alt="Keke Hero" width={700} height={700} />
                 </div>
         </div>
     );
