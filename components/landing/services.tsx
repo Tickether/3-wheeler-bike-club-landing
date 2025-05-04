@@ -3,7 +3,7 @@ import { Card } from "../ui/card";
 
 export function Services() {
   return (
-    <div className="relative flex flex-col w-full mb-36 h-full items-center justify-center gap-20">
+    <div className="relative flex flex-col w-full mb-36 h-full items-center justify-center gap-12">
       {/* ↓ Fade-in BG image ↓ */}
       <div
         className="
@@ -23,23 +23,23 @@ export function Services() {
         </p>
       </div>
 
-      <div className="flex w-full h-2/4 max-md:flex-col gap-4 justify-center z-10">
-        <Card className="flex w-2/5 max-md:w-full h-80 max-md:h-48 flex-col gap-4 justify-center p-8 max-md:p-4">
-          <div className="flex flex-col gap-4 max-md:flex-row max-md:items-center max-md:justify-center">
-            <Users className="w-14 h-14 max-md:w-10 max-md:h-10" />
+      <div className="flex w-full h-2/4 max-xl:flex-col gap-4 max-xl:items-center justify-center z-10">
+        <Card className="flex w-2/5 max-xl:w-[600px] max-md:w-full h-80 max-xl:h-48 flex-col gap-4 justify-center p-8 max-xl:p-4">
+          <div className="flex flex-col gap-4 max-xl:flex-row max-xl:items-center max-xl:justify-center">
+            <Users className="w-14 h-14 max-xl:w-10 max-xl:h-10" />
             <h1 className="text-xl max-md:text-sm font-semibold">3WB Riders Club</h1>
           </div>
-          <p className="text-sm max-md:text-[10px] max-md:text-center">
+          <p className="text-sm max-md:text-[10px] max-xl:text-center">
             A platform where TukTuk riders pay dues, build credit, govern their treasury, and access P2P fleet financing to drive-to-own their vehicles.
           </p>
         </Card>
 
-        <Card className="flex w-2/5 max-md:w-full h-80 max-md:h-48 flex-col gap-4 justify-center p-8 max-md:p-4">
-          <div className="flex flex-col gap-4 max-md:flex-row max-md:items-center max-md:justify-center">
-            <Landmark className="w-14 h-14 max-md:w-10 max-md:h-10" />
+        <Card className="flex w-2/5 max-xl:w-[600px] max-md:w-full h-80 max-xl:h-48 flex-col gap-4 justify-center p-8 max-xl:p-4">
+          <div className="flex flex-col gap-4 max-xl:flex-row max-xl:items-center max-xl:justify-center">
+            <Landmark className="w-14 h-14 max-xl:w-10 max-xl:h-10" />
             <h1 className="text-xl max-md:text-sm font-semibold">P2P Fleet Finance</h1>
           </div>
-          <p className="text-sm max-md:text-[10px] max-md:text-center">
+          <p className="text-sm max-md:text-[10px] max-xl:text-center">
             A decentralized way for individuals to fund a fleet of 3-Wheeler Bikes, empowering riders to achieve ownership while earning a decent ROI.
           </p>
         </Card>
