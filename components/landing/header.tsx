@@ -70,7 +70,7 @@ export function Header() {
             <div className="flex gap-5">
                 <Button className="rounded-full">
                     <Link href={{ hash: 'footer' }}>
-                        <p>Contact us</p>
+                        <p>Contact Us</p>
                     </Link>
                 </Button>
             </div>
