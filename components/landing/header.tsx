@@ -1,4 +1,3 @@
-import { BookOpenIcon, Contact, FileQuestion, Home } from "lucide-react";
 import Image from "next/image";
 import { Button } from "../ui/button";
 import Link from "next/link";
