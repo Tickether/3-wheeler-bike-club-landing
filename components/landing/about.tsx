@@ -10,7 +10,7 @@ export function About() {
                         <p className="text-lg max-md:text-xs max-sm:text-[10px] max-sm:text-center">{"A community driven platform for 3-wheelers bikers with membership payment & credit score features, and a P2P finance feature for buying or adding bikes to the platform with hire purchase agreements."}</p>
                     </div>
                 </div>
-                <div className="flex w-2/5 max-md:w-full max-md:h-2/5 items-center justify-center max-sm:w-80 max-sm:h-80">
+                <div className="flex w-2/5 max-md:w-full max-md:h-2/5 items-center justify-center max-sm:w-72 max-sm:h-72">
                     <Image src="/images/kekeAbout.svg" alt="Keke About" width={700} height={700} />
                 </div>
         </div>
