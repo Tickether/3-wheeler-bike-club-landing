@@ -5,10 +5,14 @@ import { useEffect, useState } from "react";
 
 export function Header() {
     const [activeSection, setActiveSection] = useState('');
+    const [isScrolled, setIsScrolled] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
             const sections = ['home', 'services', 'about', 'faqs'];
+            
+            // Check if scrolled down
+            setIsScrolled(window.scrollY > 50);
             
             for (const section of sections) {
                 const element = document.getElementById(section);
@@ -31,7 +35,11 @@ export function Header() {
     }, []);
 
     return (
-        <div className="flex w-full h-20 justify-between items-center px-4">
+        <div className={`flex w-full h-20 justify-between items-center px-4 transition-all duration-300 ${
+            isScrolled 
+                ? 'bg-black/90 backdrop-blur-md border-b border-white/10' 
+                : 'bg-transparent'
+        }`}>
             {/** left */}
             <div>
                 <Image
