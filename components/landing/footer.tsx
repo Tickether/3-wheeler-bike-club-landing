@@ -1,12 +1,20 @@
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 
 export function Footer() {
+
+    const router = useRouter()
+    
     return (
-        <div className="flex flex-col w-full gap-5 items-center justify-center px-4">
+        <div className="flex flex-col w-full gap-5 items-center justify-center pb-16 ">
             <div>
                 <Image className="rounded-2xl max-md:rounded-xl max-md:w-10 max-md:h-10" src={"/icons/logo.jpg"} alt="logo" width={60} height={60} />
             </div>
+            <div className="flex flex-col items-center">
+                    <p className="text-[11px]">Want to drive-to-own a 3-Wheeler?</p>
+                    <span className="text-xs text-yellow-500 font-bold underline" onClick={() => router.push("https://member.3wb.club")}>Become a member</span>
+                </div>
             <div className="flex flex-row gap-5 items-center justify-center">
                 <a href="https://x.com/3wbClub" target="_blank" rel="noopener noreferrer">
                     <Image className="max-md:w-5 max-md:h-5" src="/socials/x.svg" alt="x" width={30} height={30} />
