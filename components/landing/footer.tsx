@@ -13,7 +13,7 @@ export function Footer() {
             </div>
             <div className="flex flex-col items-center">
                     <p className="text-[11px]">Want to drive-to-own a 3-Wheeler?</p>
-                    <span className="text-xs text-yellow-500 font-bold underline" onClick={() => router.push("https://member.3wb.club")}>Become a member</span>
+                    <span className="text-xs text-yellow-500 font-bold underline cursor-pointer" onClick={() => router.push("https://member.3wb.club")}>Become a member</span>
                 </div>
             <div className="flex flex-row gap-5 items-center justify-center">
                 <a href="https://x.com/3wbClub" target="_blank" rel="noopener noreferrer">
@@ -30,8 +30,6 @@ export function Footer() {
                 <p>{"Blog"}</p>
                 <p>{"Careers"}</p>
                 <p>{"Press"}</p>  
-                <p>{"Privacy Policy"}</p>
-                <p>{"Terms of Service"}</p>
             </div>
             <p className="text-xs max-md:text-[8px]">{"© 2025 3WB LABS INC. <> 3WB GHANA LTD. All rights reserved."}</p>
         </div>
