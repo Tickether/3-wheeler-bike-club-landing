@@ -17,7 +17,7 @@ export function FAQs() {
                         <AccordionItem className="border-none" value="item-1">
                             <AccordionTrigger className="h-20 max-sm:h-14 text-sm max-lg:text-xs max-sm:text-[9px] bg-[#494848] px-2 py-2 max-sm:py-1 rounded-xl border-l-4 border-l-yellow-500">How does the investment work, and how are returns calculated?</AccordionTrigger>
                             <AccordionContent className="px-2 max-sm:text-[8px]">
-                                Each 3-wheeler is split into 50 fractions at $45 each. Once assigned to a rider, it begins a 60-week lease-to-own plan. Investors earn a 75% ROI over the 60-week period, distributed proportionally to their share.
+                                Each 3-wheeler is split into 50 fractions at $50 each. Once assigned to a rider, it begins a 60-week lease-to-own plan. Investors earn up to a target of 45% ROI over the 60-week period, distributed proportionally to their share.
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem className="border-none" value="item-2">
